@@ -10,11 +10,18 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
+
       - uses: actions/setup-node@v3
         with:
           node-version: '20'
+
       - name: Run CI script
         run: ./scripts/hello.sh
+
+      - name: Install dependencies
+        working-directory: frontend
+        run: npm install
+
       - name: Build React app
         working-directory: frontend
         run: npm run build
