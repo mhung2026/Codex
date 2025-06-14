@@ -4,20 +4,26 @@ import './App.css';
 export default function App() {
   return (
     <>
-      <header>
-        <h1>AllianceITSC - Accompanying businesses on the digital transformation journey</h1>
-        <p>AllianceITSC is a trusted technology partner, specializing in providing software solutions, IT services and digital transformation consulting, helping businesses develop sustainably in the digital age.</p>
-        <ul>
-          <li>Flexible solutions</li>
-          <li>Safety &amp; Security</li>
-          <li>Team of experienced experts</li>
-          <li>24/7 service</li>
-        </ul>
-        <nav>
-          <a href="#contact">Contact now</a>
-          <a href="#services">See more Services</a>
-        </nav>
-      </header>
+      <section id="home">
+        <header>
+          <h1>AllianceITSC - Accompanying businesses on the digital transformation journey</h1>
+          <p>
+            AllianceITSC is a trusted technology partner, specializing in providing
+            software solutions, IT services and digital transformation consulting,
+            helping businesses develop sustainably in the digital age.
+          </p>
+          <ul>
+            <li>Flexible solutions</li>
+            <li>Safety &amp; Security</li>
+            <li>Team of experienced experts</li>
+            <li>24/7 service</li>
+          </ul>
+          <nav>
+            <a href="#contact">Contact now</a>
+            <a href="#services">See more Services</a>
+          </nav>
+        </header>
+      </section>
 
       <section id="about">
         <h2>About Us</h2>
