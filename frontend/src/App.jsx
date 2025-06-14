@@ -4,7 +4,7 @@ import './App.css';
 export default function App() {
   return (
     <>
-      <section id="home">
+      <section id="root">
         <header>
         <h1>AllianceITSC - Accompanying businesses on the digital transformation journey</h1>
         <p>AllianceITSC is a trusted technology partner, specializing in providing software solutions, IT services and digital transformation consulting, helping businesses develop sustainably in the digital age.</p>
