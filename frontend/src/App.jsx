@@ -4,7 +4,8 @@ import './App.css';
 export default function App() {
   return (
     <>
-      <header>
+      <section id="home">
+        <header>
         <h1>AllianceITSC - Accompanying businesses on the digital transformation journey</h1>
         <p>AllianceITSC is a trusted technology partner, specializing in providing software solutions, IT services and digital transformation consulting, helping businesses develop sustainably in the digital age.</p>
         <ul>
@@ -17,7 +18,8 @@ export default function App() {
           <a href="#contact">Contact now</a>
           <a href="#services">See more Services</a>
         </nav>
-      </header>
+        </header>
+      </section>
 
       <section id="about">
         <h2>About Us</h2>
