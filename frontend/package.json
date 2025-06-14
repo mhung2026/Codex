@@ -2,6 +2,7 @@
   "name": "alliance-react-demo",
   "version": "1.0.0",
   "private": true,
+  "homepage": "https://mhung2026.github.io/Codex",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
