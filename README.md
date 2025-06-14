@@ -4,8 +4,8 @@ This repository demonstrates a simple Continuous Integration and Deployment (CI/
 The example uses GitHub Actions to run a script on every push or pull request.
 
 ## Repository Structure
+- `frontend/` – React website for AllianceITSC with a blue theme.
 - `frontend/` – Simple React app showcasing UI.
-
 - `scripts/hello.sh` – Sample build step executed by the pipeline.
 - `.github/workflows/ci.yml` – GitHub Actions workflow configuration.
 
@@ -16,3 +16,5 @@ The example uses GitHub Actions to run a script on every push or pull request.
 3. The workflow runs `npm run build` inside `frontend/` to demonstrate building the React app.
 
 This minimal setup can be extended to include testing, building and deployment steps tailored to your project.
+The example website contains sections for home, about, services and contact following the AllianceITSC description.
+
